@@ -6,7 +6,7 @@ extension Edge: GraphMember {}
 
 // MARK: -
 
-@_functionBuilder
+@resultBuilder
 public struct GraphBuilder {
     struct Fragment: GraphMember {
         var members: [GraphMember]

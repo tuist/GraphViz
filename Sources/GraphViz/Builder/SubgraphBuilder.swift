@@ -5,7 +5,7 @@ extension Edge: SubgraphMember {}
 
 // MARK: -
 
-@_functionBuilder
+@resultBuilder
 public struct SubgraphBuilder {
     struct Fragment: SubgraphMember {
         var members: [SubgraphMember]
